@@ -1,0 +1,12 @@
+transformers>=4.30.0
+datasets>=2.8.0
+torch>=1.13.0
+seqeval
+pyyaml
+pandas
+scikit-learn
+python-crfsuite
+torchcrf
+tqdm
+accelerate
+tokenizers

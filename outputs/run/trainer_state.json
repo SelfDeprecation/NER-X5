@@ -1,0 +1,289 @@
+{
+  "best_global_step": 2000,
+  "best_metric": 0.9423123635270427,
+  "best_model_checkpoint": "output/continue/checkpoint-2000",
+  "epoch": 0.9784735812133072,
+  "eval_steps": 200,
+  "global_step": 3000,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.06523157208088715,
+      "grad_norm": 0.005373591091483831,
+      "learning_rate": 9.350945857795174e-06,
+      "loss": 0.0191,
+      "step": 200
+    },
+    {
+      "epoch": 0.06523157208088715,
+      "eval_loss": 0.42389631271362305,
+      "eval_macro_f1": 0.7903234965118562,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.3333    1.0000    0.5000         1\n       OLUME     0.8889    0.7273    0.8000        11\n        RAND     0.8951    0.9174    0.9061       763\n         YPE     0.9488    0.9616    0.9551      2447\n\n   micro avg     0.9352    0.9503    0.9427      3222\n   macro avg     0.7665    0.9016    0.7903      3222\nweighted avg     0.9357    0.9503    0.9429      3222\n",
+      "eval_runtime": 4.0009,
+      "eval_samples_per_second": 681.338,
+      "eval_steps_per_second": 42.74,
+      "step": 200
+    },
+    {
+      "epoch": 0.1304631441617743,
+      "grad_norm": 0.015720579773187637,
+      "learning_rate": 8.698630136986302e-06,
+      "loss": 0.0441,
+      "step": 400
+    },
+    {
+      "epoch": 0.1304631441617743,
+      "eval_loss": 0.41830146312713623,
+      "eval_macro_f1": 0.7898034919243183,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.3333    1.0000    0.5000         1\n       OLUME     0.8889    0.7273    0.8000        11\n        RAND     0.9111    0.9004    0.9057       763\n         YPE     0.9439    0.9632    0.9535      2447\n\n   micro avg     0.9356    0.9475    0.9416      3222\n   macro avg     0.7693    0.8977    0.7898      3222\nweighted avg     0.9358    0.9475    0.9415      3222\n",
+      "eval_runtime": 3.0964,
+      "eval_samples_per_second": 880.377,
+      "eval_steps_per_second": 55.225,
+      "step": 400
+    },
+    {
+      "epoch": 0.19569471624266144,
+      "grad_norm": 0.01045206468552351,
+      "learning_rate": 8.04631441617743e-06,
+      "loss": 0.0404,
+      "step": 600
+    },
+    {
+      "epoch": 0.19569471624266144,
+      "eval_loss": 0.41441258788108826,
+      "eval_macro_f1": 0.7652641152686541,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.2500    1.0000    0.4000         1\n       OLUME     0.8889    0.7273    0.8000        11\n        RAND     0.8997    0.9174    0.9085       763\n         YPE     0.9493    0.9559    0.9526      2447\n\n   micro avg     0.9364    0.9460    0.9412      3222\n   macro avg     0.7470    0.9001    0.7653      3222\nweighted avg     0.9371    0.9460    0.9414      3222\n",
+      "eval_runtime": 4.0247,
+      "eval_samples_per_second": 677.32,
+      "eval_steps_per_second": 42.488,
+      "step": 600
+    },
+    {
+      "epoch": 0.2609262883235486,
+      "grad_norm": 0.023499945178627968,
+      "learning_rate": 7.393998695368559e-06,
+      "loss": 0.0268,
+      "step": 800
+    },
+    {
+      "epoch": 0.2609262883235486,
+      "eval_loss": 0.4305694103240967,
+      "eval_macro_f1": 0.7663469535654654,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.2500    1.0000    0.4000         1\n       OLUME     0.8889    0.7273    0.8000        11\n        RAND     0.9084    0.9096    0.9090       763\n         YPE     0.9489    0.9640    0.9564      2447\n\n   micro avg     0.9384    0.9503    0.9443      3222\n   macro avg     0.7490    0.9002    0.7663      3222\nweighted avg     0.9389    0.9503    0.9445      3222\n",
+      "eval_runtime": 3.1888,
+      "eval_samples_per_second": 854.878,
+      "eval_steps_per_second": 53.626,
+      "step": 800
+    },
+    {
+      "epoch": 0.32615786040443573,
+      "grad_norm": 0.004778346978127956,
+      "learning_rate": 6.741682974559688e-06,
+      "loss": 0.0391,
+      "step": 1000
+    },
+    {
+      "epoch": 0.32615786040443573,
+      "eval_loss": 0.43874192237854004,
+      "eval_macro_f1": 0.7749606857356547,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.2500    1.0000    0.4000         1\n       OLUME     1.0000    0.7273    0.8421        11\n        RAND     0.9280    0.8781    0.9024       763\n         YPE     0.9441    0.9669    0.9554      2447\n\n   micro avg     0.9398    0.9451    0.9424      3222\n   macro avg     0.7805    0.8931    0.7750      3222\nweighted avg     0.9403    0.9451    0.9423      3222\n",
+      "eval_runtime": 3.7836,
+      "eval_samples_per_second": 720.472,
+      "eval_steps_per_second": 45.195,
+      "step": 1000
+    },
+    {
+      "epoch": 0.3913894324853229,
+      "grad_norm": 0.07261114567518234,
+      "learning_rate": 6.089367253750816e-06,
+      "loss": 0.0468,
+      "step": 1200
+    },
+    {
+      "epoch": 0.3913894324853229,
+      "eval_loss": 0.4105832576751709,
+      "eval_macro_f1": 0.7736877814155994,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.2500    1.0000    0.4000         1\n       OLUME     1.0000    0.7273    0.8421        11\n        RAND     0.8984    0.9043    0.9014       763\n         YPE     0.9491    0.9534    0.9513      2447\n\n   micro avg     0.9364    0.9410    0.9387      3222\n   macro avg     0.7744    0.8963    0.7737      3222\nweighted avg     0.9371    0.9410    0.9389      3222\n",
+      "eval_runtime": 3.1807,
+      "eval_samples_per_second": 857.036,
+      "eval_steps_per_second": 53.761,
+      "step": 1200
+    },
+    {
+      "epoch": 0.45662100456621,
+      "grad_norm": 0.007978157140314579,
+      "learning_rate": 5.437051532941945e-06,
+      "loss": 0.036,
+      "step": 1400
+    },
+    {
+      "epoch": 0.45662100456621,
+      "eval_loss": 0.40590256452560425,
+      "eval_macro_f1": 0.7751161001541326,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.2500    1.0000    0.4000         1\n       OLUME     1.0000    0.7273    0.8421        11\n        RAND     0.9063    0.9004    0.9034       763\n         YPE     0.9473    0.9628    0.9550      2447\n\n   micro avg     0.9371    0.9472    0.9421      3222\n   macro avg     0.7759    0.8976    0.7751      3222\nweighted avg     0.9376    0.9472    0.9422      3222\n",
+      "eval_runtime": 3.9274,
+      "eval_samples_per_second": 694.106,
+      "eval_steps_per_second": 43.541,
+      "step": 1400
+    },
+    {
+      "epoch": 0.5218525766470972,
+      "grad_norm": 0.016919098794460297,
+      "learning_rate": 4.784735812133073e-06,
+      "loss": 0.0535,
+      "step": 1600
+    },
+    {
+      "epoch": 0.5218525766470972,
+      "eval_loss": 0.43068304657936096,
+      "eval_macro_f1": 0.7736711247513959,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.2500    1.0000    0.4000         1\n       OLUME     1.0000    0.7273    0.8421        11\n        RAND     0.9184    0.8847    0.9012       763\n         YPE     0.9434    0.9595    0.9514      2447\n\n   micro avg     0.9370    0.9410    0.9390      3222\n   macro avg     0.7779    0.8929    0.7737      3222\nweighted avg     0.9374    0.9410    0.9390      3222\n",
+      "eval_runtime": 4.0375,
+      "eval_samples_per_second": 675.173,
+      "eval_steps_per_second": 42.353,
+      "step": 1600
+    },
+    {
+      "epoch": 0.5870841487279843,
+      "grad_norm": 0.009281579405069351,
+      "learning_rate": 4.132420091324202e-06,
+      "loss": 0.0342,
+      "step": 1800
+    },
+    {
+      "epoch": 0.5870841487279843,
+      "eval_loss": 0.41229844093322754,
+      "eval_macro_f1": 0.9418057611488269,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     1.0000    1.0000    1.0000         1\n       OLUME     0.9091    0.9091    0.9091        11\n        RAND     0.9090    0.9030    0.9060       763\n         YPE     0.9449    0.9595    0.9521      2447\n\n   micro avg     0.9364    0.9460    0.9412      3222\n   macro avg     0.9407    0.9429    0.9418      3222\nweighted avg     0.9363    0.9460    0.9411      3222\n",
+      "eval_runtime": 3.566,
+      "eval_samples_per_second": 764.438,
+      "eval_steps_per_second": 47.953,
+      "step": 1800
+    },
+    {
+      "epoch": 0.6523157208088715,
+      "grad_norm": 0.003331794636324048,
+      "learning_rate": 3.4801043705153297e-06,
+      "loss": 0.0462,
+      "step": 2000
+    },
+    {
+      "epoch": 0.6523157208088715,
+      "eval_loss": 0.41338762640953064,
+      "eval_macro_f1": 0.9423123635270427,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     1.0000    1.0000    1.0000         1\n       OLUME     0.9091    0.9091    0.9091        11\n        RAND     0.9071    0.9083    0.9077       763\n         YPE     0.9424    0.9628    0.9525      2447\n\n   micro avg     0.9341    0.9497    0.9418      3222\n   macro avg     0.9396    0.9450    0.9423      3222\nweighted avg     0.9339    0.9497    0.9417      3222\n",
+      "eval_runtime": 3.191,
+      "eval_samples_per_second": 854.288,
+      "eval_steps_per_second": 53.589,
+      "step": 2000
+    },
+    {
+      "epoch": 0.7175472928897586,
+      "grad_norm": 0.010527967475354671,
+      "learning_rate": 2.827788649706458e-06,
+      "loss": 0.0416,
+      "step": 2200
+    },
+    {
+      "epoch": 0.7175472928897586,
+      "eval_loss": 0.41016504168510437,
+      "eval_macro_f1": 0.941478101089709,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     1.0000    1.0000    1.0000         1\n       OLUME     0.9091    0.9091    0.9091        11\n        RAND     0.9043    0.9043    0.9043       763\n         YPE     0.9424    0.9628    0.9525      2447\n\n   micro avg     0.9334    0.9488    0.9410      3222\n   macro avg     0.9390    0.9441    0.9415      3222\nweighted avg     0.9333    0.9488    0.9410      3222\n",
+      "eval_runtime": 3.2791,
+      "eval_samples_per_second": 831.318,
+      "eval_steps_per_second": 52.148,
+      "step": 2200
+    },
+    {
+      "epoch": 0.7827788649706457,
+      "grad_norm": 0.004083292093127966,
+      "learning_rate": 2.1754729288975866e-06,
+      "loss": 0.0311,
+      "step": 2400
+    },
+    {
+      "epoch": 0.7827788649706457,
+      "eval_loss": 0.40958476066589355,
+      "eval_macro_f1": 0.9414896466328034,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     1.0000    1.0000    1.0000         1\n       OLUME     0.9091    0.9091    0.9091        11\n        RAND     0.9142    0.8938    0.9039       763\n         YPE     0.9417    0.9644    0.9530      2447\n\n   micro avg     0.9354    0.9475    0.9414      3222\n   macro avg     0.9413    0.9418    0.9415      3222\nweighted avg     0.9351    0.9475    0.9412      3222\n",
+      "eval_runtime": 3.9161,
+      "eval_samples_per_second": 696.098,
+      "eval_steps_per_second": 43.666,
+      "step": 2400
+    },
+    {
+      "epoch": 0.8480104370515329,
+      "grad_norm": 0.027615070343017578,
+      "learning_rate": 1.523157208088715e-06,
+      "loss": 0.0221,
+      "step": 2600
+    },
+    {
+      "epoch": 0.8480104370515329,
+      "eval_loss": 0.4087432622909546,
+      "eval_macro_f1": 0.9421605232189034,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     1.0000    1.0000    1.0000         1\n       OLUME     0.9091    0.9091    0.9091        11\n        RAND     0.9089    0.9017    0.9053       763\n         YPE     0.9447    0.9640    0.9543      2447\n\n   micro avg     0.9363    0.9491    0.9427      3222\n   macro avg     0.9407    0.9437    0.9422      3222\nweighted avg     0.9361    0.9491    0.9425      3222\n",
+      "eval_runtime": 3.2566,
+      "eval_samples_per_second": 837.075,
+      "eval_steps_per_second": 52.509,
+      "step": 2600
+    },
+    {
+      "epoch": 0.91324200913242,
+      "grad_norm": 0.008244641125202179,
+      "learning_rate": 8.708414872798435e-07,
+      "loss": 0.0234,
+      "step": 2800
+    },
+    {
+      "epoch": 0.91324200913242,
+      "eval_loss": 0.4084201157093048,
+      "eval_macro_f1": 0.9418538771554195,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     1.0000    1.0000    1.0000         1\n       OLUME     0.9091    0.9091    0.9091        11\n        RAND     0.9065    0.9017    0.9041       763\n         YPE     0.9454    0.9632    0.9543      2447\n\n   micro avg     0.9363    0.9485    0.9423      3222\n   macro avg     0.9402    0.9435    0.9419      3222\nweighted avg     0.9361    0.9485    0.9422      3222\n",
+      "eval_runtime": 4.1375,
+      "eval_samples_per_second": 658.851,
+      "eval_steps_per_second": 41.329,
+      "step": 2800
+    },
+    {
+      "epoch": 0.9784735812133072,
+      "grad_norm": 0.04221351072192192,
+      "learning_rate": 2.1852576647097195e-07,
+      "loss": 0.0229,
+      "step": 3000
+    },
+    {
+      "epoch": 0.9784735812133072,
+      "eval_loss": 0.40730610489845276,
+      "eval_macro_f1": 0.8455864426438089,
+      "eval_report": "              precision    recall  f1-score   support\n\n      ERCENT     0.5000    1.0000    0.6667         1\n       OLUME     0.9000    0.8182    0.8571        11\n        RAND     0.9065    0.9017    0.9041       763\n         YPE     0.9455    0.9636    0.9545      2447\n\n   micro avg     0.9360    0.9485    0.9422      3222\n   macro avg     0.8130    0.9209    0.8456      3222\nweighted avg     0.9359    0.9485    0.9421      3222\n",
+      "eval_runtime": 3.2124,
+      "eval_samples_per_second": 848.577,
+      "eval_steps_per_second": 53.231,
+      "step": 3000
+    }
+  ],
+  "logging_steps": 200,
+  "max_steps": 3066,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 200,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 783918618624000.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
