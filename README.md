@@ -16,7 +16,7 @@
 ## 🔹 Установка
 
 ```bash
-git clone https://github.com/<your_repo>/ner_transformer_project.git
+git clone https://github.com/SelfDeprecation/NER-X5/ner_transformer_project.git
 cd ner_transformer_project
 python -m venv .venv
 source .venv/bin/activate    # для Linux/Mac
