@@ -17,7 +17,7 @@
 
 ```bash
 git clone https://github.com/SelfDeprecation/NER-X5.git
-cd ner_transformer_project
+cd NER-X5
 python -m venv .venv
 source .venv/bin/activate    # для Linux/Mac
 .venv\Scripts\activate       # для Windows
