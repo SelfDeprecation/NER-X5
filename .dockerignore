@@ -1,8 +1,6 @@
-# Git
 .git
 .gitignore
 
-# Python
 __pycache__
 *.pyc
 *.pyo
@@ -21,19 +19,16 @@ coverage.xml
 *.log
 .pytest_cache
 
-# Virtual environments
 venv/
 env/
 ENV/
 
-# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
 .DS_Store
 .DS_Store?
 ._*
@@ -42,22 +37,11 @@ ENV/
 ehthumbs.db
 Thumbs.db
 
-# Documentation
 README.md
 *.md
 
-# Data files (if large)
-data/
-*.csv
-*.json
-
-# Outputs (model files will be copied separately if needed)
-outputs/
-
-# Jupyter notebooks
 *.ipynb
 .ipynb_checkpoints/
 
-# Temporary files
 *.tmp
 *.temp

@@ -1,10 +1,22 @@
 import torch
 import numpy as np
+import os
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
 def load_model(model_dir):
-    tokenizer = AutoTokenizer.from_pretrained(model_dir, use_fast=True, add_prefix_space=True)
-    model = AutoModelForTokenClassification.from_pretrained(model_dir)
+    if not os.path.exists(model_dir):
+        raise FileNotFoundError(f"Model directory not found: {model_dir}")
+    
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_dir, 
+        use_fast=True, 
+        add_prefix_space=True,
+        local_files_only=True
+    )
+    model = AutoModelForTokenClassification.from_pretrained(
+        model_dir,
+        local_files_only=True
+    )
     model.eval()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)

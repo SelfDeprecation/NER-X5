@@ -1,6 +1,7 @@
 import logging
 from time import time
 from typing import Callable
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Depends
 from fastapi.concurrency import run_in_threadpool
@@ -10,7 +11,19 @@ from api import schemas, helpers
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title='X5 entity allocator')
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    logger.info("Loading model on startup...")
+    try:
+        helpers.model_manager.load_model()
+        logger.info("Model loaded successfully and ready to serve requests")
+    except Exception as e:
+        logger.error(f"Failed to load model on startup: {e}")
+        raise
+    yield
+    logger.info("Shutting down...")
+
+app = FastAPI(title='X5 entity allocator', lifespan=lifespan)
 
 def get_model_predict():
     return helpers.model_manager.predict
