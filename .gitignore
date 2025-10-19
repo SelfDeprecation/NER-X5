@@ -1,0 +1,32 @@
+# created by virtualenv automatically
+__pycache__/ *.py[cod]
+venv/ .env
+.coverage *.py,cover .cache/
+dist/ *.egg-info/
+*.py,cover
+*.pyc
+**/__pycache__/
+*.egg-info/
+*.egg
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+build/
+dist/
+sdist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+.env/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+*.swp
+*.swo
+.pytest_cache/
+.mypy_cache/
