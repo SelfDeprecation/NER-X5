@@ -304,7 +304,7 @@ python src_special/train_special.py --train_csv data/train_cleaned.csv
 Тело запроса:  
 ```json
 {
-  "input": "текст для анализа"
+  "input": "{abtoys игрушки}"
 }
 ```
 Ответ:  
@@ -312,13 +312,13 @@ python src_special/train_special.py --train_csv data/train_cleaned.csv
 [
     {
         "start_index": 0,
-        "end_index": 5,
+        "end_index": 6,
         "entity": "B-BRAND"
     },
     {
-        "start_index": 6,
-        "end_index": 10,
-        "entity": "O"
+        "start_index": 7,
+        "end_index": 13,
+        "entity": "B-TYPE"
     }
 ]
 ```
